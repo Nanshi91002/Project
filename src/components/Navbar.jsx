@@ -17,17 +17,22 @@ export const Navbar = () => {
             </li>
             <li class="nav-item active">
               <Link class="nav-link" to="/netflixshows" >
-                 SHOWS
+                SHOWS
               </Link>
             </li>
             <li class="nav-item active">
               <Link class="nav-link" to="/netflixmovies" >
-               MOVIES
+                MOVIES
               </Link>
             </li>
-            
-            
-            
+            <li class="nav-item active">
+              <Link class="nav-link" to="/netflixsports" >
+                SPORTS
+              </Link>
+            </li>
+
+
+
 
 
 

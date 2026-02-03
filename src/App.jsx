@@ -18,6 +18,7 @@ import { Navbar } from './components/Navbar'
 import { NetflixMovies } from './components/NetflixMovies'
 import { NetflixShows } from './components/NetflixShows'
 import { HomeComponent } from './components/HomeComponent'
+import { NetflixSports } from './components/NetflixSports'
 //import './App.css'
 
 
@@ -32,6 +33,7 @@ function App() {
       <Route path='/netflixmovies' element={<NetflixMovies/>}></Route>
       <Route path='/netflixshows' element={<NetflixShows/>}></Route>
       <Route path='/' element={<HomeComponent/>}></Route>
+      <Route path='/netflixsports' element={<NetflixSports/>}></Route>
     </Routes>
     
     </div>
