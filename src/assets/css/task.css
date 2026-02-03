@@ -1,0 +1,23 @@
+.container{
+    width:100px;
+    height:100px;
+    border:2px solid blue;
+    margin-left:310px;
+    margin-bottom:600px;
+}
+.p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+    width:400px;
+    padding:0px;
+    margin: 1px;
+}
+.img{
+    margin-left: 450px;
+    margin-bottom:1700px;
+}
+.p1{
+    background-color: brown;
+    color: aqua;
+    font-family: cursive;
+}
