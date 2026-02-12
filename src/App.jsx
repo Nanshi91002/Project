@@ -21,6 +21,14 @@ import { HomeComponent } from './components/HomeComponent'
 import { NetflixSports } from './components/NetflixSports'
 import { NetflixNews } from './components/NetflixNews'
 import { NetflixCategory } from './components/NetflixCategory'
+import { ErrorNotFound } from './components/ErrorNotFound'
+import { Employee } from './components/Employee'
+import { EmployeeList } from './components/EmployeeList'
+import { InputDemo } from './components/Input/InputDemo'
+import { FormDemo1 } from './components/Forms/FormDemo1'
+import { FormDemo2 } from './components/Forms/FormDemo2'
+import { FormDemo3 } from './components/Forms/FormDemo3'
+//import { SubEmployee } from './components/SubEmployee'
 //import './App.css'
 
 
@@ -38,7 +46,16 @@ function App() {
       <Route path='/netflixsports' element={<NetflixSports/>}></Route>
       <Route path='/netflixnews' element={<NetflixNews/>}></Route>
       <Route path='/netflixcategory' element={<NetflixCategory/>}></Route>
+      <Route path='/*' element={<ErrorNotFound/>}></Route>
+      <Route path='/employee' element={<Employee/>}></Route>
+      <Route path='/employeelist' element={<EmployeeList/>}></Route>
+      {/* <Route path='/subemployee' element={<SubEmployee/>}></Route> */}
+      <Route path='/inputdemo' element={<InputDemo/>}></Route>
+      <Route path='/formdemo1' element={<FormDemo1/>}></Route>
+      <Route path='/formdemo2' element={<FormDemo2/>}></Route>
+      <Route path='/formdemo3' element={<FormDemo3/>}></Route>
     </Routes>
+
     
     </div>
   )
