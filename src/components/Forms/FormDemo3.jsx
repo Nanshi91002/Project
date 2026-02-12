@@ -10,6 +10,14 @@ export const FormDemo3 = () => {
         console.log(data);
         
     }
+    const ValidationSchema={
+        ageValidator:{
+            required:{
+                value:true,
+                message:"Age is required"
+            }
+        }
+    }
   return (
     <div style={{textAlign:"center"}}>
         <h1>FORM DEMO 3</h1>
@@ -17,10 +25,17 @@ export const FormDemo3 = () => {
             <label>NAME:</label>
             <input type='text'{...register("name",{required:{value:true,message:"Name is required*"}})}></input>
             {errors.name && errors.name.message}
-        </form>
-        <div>
+            <div>
+                <label>AGE:
+                    <input type='text'{...register("age",ValidationSchema.ageValidator)}></input>
+                    {errors.age && errors.age.message}
+                </label>
+            </div>
+            <div>
             <input type="submit" />
         </div>
+        </form>
+        
     </div>
   )
 }
