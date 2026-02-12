@@ -14,9 +14,14 @@ export const FormDemo3 = () => {
         ageValidator:{
             required:{
                 value:true,
-                message:"Age is required"
-            }
+                message:"Age is required*"
+            },
+            min:{
+            value:18,
+            message:"min age should be  18"
         }
+        },
+        
     }
   return (
     <div style={{textAlign:"center"}}>
