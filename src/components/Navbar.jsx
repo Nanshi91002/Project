@@ -30,6 +30,16 @@ export const Navbar = () => {
                 SPORTS
               </Link>
             </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/netflixnews" >
+                NEWS
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/netflixcategory" >
+                CATEGORY
+              </Link>
+            </li>
 
 
 
