@@ -11,6 +11,7 @@ export const InputDemo = () => {
     const [dob,setdob]=useState("")
     const [hobbies,sethobbies]=useState("")
     const [skill,setskill]=useState("")
+    const[userdata,setuserdata]=useState("")
     const nameHandler = (event) => {
         console.log(event.target.value);
         setname(event.target.value)
@@ -56,6 +57,7 @@ export const InputDemo = () => {
         setskill(event.target.value)
         
     }
+    
     return (
 
         <div style={{ textAlign: "center" }}>
@@ -112,6 +114,13 @@ export const InputDemo = () => {
             </div>
             <div>
                 <button type='submit'>Submit</button>
+            </div>
+            <div>
+                <select>
+                    <option value="india">INDIA</option>
+                    <option value="usa">USA</option>
+                    <option value="aus">AUSTRAILA</option>
+                </select>
             </div>
         </div>
     )

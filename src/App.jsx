@@ -28,6 +28,9 @@ import { InputDemo } from './components/Input/InputDemo'
 import { FormDemo1 } from './components/Forms/FormDemo1'
 import { FormDemo2 } from './components/Forms/FormDemo2'
 import { FormDemo3 } from './components/Forms/FormDemo3'
+import { FormDemo4 } from './components/Forms/FormDemo4'
+import { InputDemo1 } from './components/Input/InputDemo1'
+import { Task } from './components/Forms/Task'
 //import { SubEmployee } from './components/SubEmployee'
 //import './App.css'
 
@@ -51,9 +54,13 @@ function App() {
       <Route path='/employeelist' element={<EmployeeList/>}></Route>
       {/* <Route path='/subemployee' element={<SubEmployee/>}></Route> */}
       <Route path='/inputdemo' element={<InputDemo/>}></Route>
+      <Route path='/inputdemo1' element={<InputDemo1/>}></Route>
       <Route path='/formdemo1' element={<FormDemo1/>}></Route>
       <Route path='/formdemo2' element={<FormDemo2/>}></Route>
       <Route path='/formdemo3' element={<FormDemo3/>}></Route>
+      <Route path='/formdemo4' element={<FormDemo4/>}></Route>
+      {/* <Route path='/task1' element={<Task1/>}></Route> */}
+      <Route path='/task' element={<Task/>}></Route>
     </Routes>
 
     
