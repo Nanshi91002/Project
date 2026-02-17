@@ -31,6 +31,9 @@ import { FormDemo3 } from './components/Forms/FormDemo3'
 import { FormDemo4 } from './components/Forms/FormDemo4'
 import { InputDemo1 } from './components/Input/InputDemo1'
 import { Task } from './components/Forms/Task'
+import { ApiDemo1 } from './components/api/ApiDemo1'
+import { DemoTask1 } from './components/api/DemoTask1'
+import { DTask2 } from './components/api/DTask2'
 //import { SubEmployee } from './components/SubEmployee'
 //import './App.css'
 
@@ -61,6 +64,9 @@ function App() {
       <Route path='/formdemo4' element={<FormDemo4/>}></Route>
       {/* <Route path='/task1' element={<Task1/>}></Route> */}
       <Route path='/task' element={<Task/>}></Route>
+      <Route path='/apidemo1' element={<ApiDemo1/>}></Route>
+      <Route path='/demotask1' element={<DemoTask1/>}></Route>
+      <Route path='/dtask2' element={<DTask2/>}></Route>
     </Routes>
 
     

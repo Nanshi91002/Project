@@ -90,7 +90,21 @@ export const Navbar = () => {
                 Task
               </Link>
               </li>
-              
+              <li class="nav-item active">
+              <Link class="nav-link" to="/apidemo1" >
+                Api Demo 1
+              </Link>
+              </li>
+              <li class="nav-item active">
+              <Link class="nav-link" to="/demotask1" >
+                DEMOTASK1
+              </Link>
+              </li>
+              <li class="nav-item active">
+              <Link class="nav-link" to="/dtask2" >
+                DTask2
+              </Link>
+              </li>
             </ul>
             </div>
             </nav>
