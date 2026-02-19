@@ -34,6 +34,13 @@ import { Task } from './components/Forms/Task'
 import { ApiDemo1 } from './components/api/ApiDemo1'
 import { DemoTask1 } from './components/api/DemoTask1'
 import { DTask2 } from './components/api/DTask2'
+import { SearchOmdb } from './components/api/SearchOmdb'
+import MovieList from './components/api/MovieList'
+import MovieDetail from './components/api/MovieDetail'
+import { ApiDemo2 } from './components/api/ApiDemo2'
+import  InputMovieList  from './components/api/InputMovieList'
+import InputMovieDetail from './components/api/InputMovieDetail'
+
 //import { SubEmployee } from './components/SubEmployee'
 //import './App.css'
 
@@ -67,6 +74,13 @@ function App() {
       <Route path='/apidemo1' element={<ApiDemo1/>}></Route>
       <Route path='/demotask1' element={<DemoTask1/>}></Route>
       <Route path='/dtask2' element={<DTask2/>}></Route>
+      <Route path='/searchomdb' element={<SearchOmdb/>}></Route>
+      <Route path='/movielist' element={<MovieList/>}></Route>
+      <Route path='/movie/:id' element={<MovieDetail/>}></Route>
+      <Route path='/apidemo2' element={<ApiDemo2/>}></Route>
+      <Route path='/inputmovielist' element={<InputMovieList/>}></Route>
+      <Route path='/inputmoviedetail' element={<InputMovieDetail/>}></Route>
+     
     </Routes>
 
     
