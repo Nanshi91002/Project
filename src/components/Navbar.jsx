@@ -140,15 +140,20 @@ export const Navbar = () => {
                 Input Movie Detail
               </Link>
             </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/movieinput " >
+                Movie Input
+              </Link>
+            </li>
             
             
              
-            {/* <li class="nav-item active">
+             <li class="nav-item active">
               <Link class="nav-link" to="/apidemo2" >
                 APIDEMO2
               </Link>
-            </li> */}
-          </ul>
+            </li>
+          </ul> 
         </div>
       </nav>
     </div>

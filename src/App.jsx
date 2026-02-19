@@ -37,9 +37,8 @@ import { DTask2 } from './components/api/DTask2'
 import { SearchOmdb } from './components/api/SearchOmdb'
 import MovieList from './components/api/MovieList'
 import MovieDetail from './components/api/MovieDetail'
+import { MovieInput } from './components/api/MovieInput'
 import { ApiDemo2 } from './components/api/ApiDemo2'
-import  InputMovieList  from './components/api/InputMovieList'
-import InputMovieDetail from './components/api/InputMovieDetail'
 
 //import { SubEmployee } from './components/SubEmployee'
 //import './App.css'
@@ -78,8 +77,8 @@ function App() {
       <Route path='/movielist' element={<MovieList/>}></Route>
       <Route path='/movie/:id' element={<MovieDetail/>}></Route>
       <Route path='/apidemo2' element={<ApiDemo2/>}></Route>
-      <Route path='/inputmovielist' element={<InputMovieList/>}></Route>
-      <Route path='/inputmoviedetail' element={<InputMovieDetail/>}></Route>
+      <Route path='/movieinput' element={<MovieInput/>}></Route>
+      
      
     </Routes>
 
